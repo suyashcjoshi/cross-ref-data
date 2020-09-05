@@ -1,0 +1,25 @@
+{
+  "name": "cross-ref-data",
+  "version": "1.0.0",
+  "description": "Node.JS and Elastic search app that gets data from Crossref REST API, loads into Elastic Search and does DataAnalysis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyashjoshi/cross-ref-data.git"
+  },
+  "keywords": [
+    "Node.js",
+    "ElasticSearch",
+    "Crossref API",
+    "Data Mining"
+  ],
+  "author": "Suyash Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suyashjoshi/cross-ref-data/issues"
+  },
+  "homepage": "https://github.com/suyashjoshi/cross-ref-data#readme"
+}
