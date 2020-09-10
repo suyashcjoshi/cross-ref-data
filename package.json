@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node.JS and Elastic search app that gets data from Crossref REST API, loads into Elastic Search and does DataAnalysis",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/suyashjoshi/cross-ref-data/issues"
   },
-  "homepage": "https://github.com/suyashjoshi/cross-ref-data#readme"
+  "homepage": "https://github.com/suyashjoshi/cross-ref-data#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.9.0",
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.3.5"
+  }
 }
