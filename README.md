@@ -11,9 +11,9 @@ Data from Cross Ref API: https://www.crossref.org/education/retrieve-metadata/re
 6. Created : Date of creation
 7. URL : URL
 
-Read more about cross-ref api:
-
-## To Run the Node App, execute the commands. For database, you need to install them seperately (steps coming soon)
+## To Run the Node App, execute the commands.
 
 - npm install
 - node app.js
+
+Note: For database setup, you need to install them seperately. More info to be added soon.
